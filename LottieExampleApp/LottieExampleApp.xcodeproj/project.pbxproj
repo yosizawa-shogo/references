@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2994D50B2D3F94E200D7A407 /* DotLottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2994D50A2D3F94E200D7A407 /* DotLottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2994D4ED2D3F931000D7A407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2994D4D42D3F930E00D7A407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2994D4DB2D3F930E00D7A407;
+			remoteInfo = LottieExampleApp;
+		};
+		2994D4F72D3F931000D7A407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2994D4D42D3F930E00D7A407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2994D4DB2D3F930E00D7A407;
+			remoteInfo = LottieExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2994D4DC2D3F930E00D7A407 /* LottieExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2994D4EC2D3F931000D7A407 /* LottieExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2994D4F62D3F931000D7A407 /* LottieExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2994D4DE2D3F930E00D7A407 /* LottieExampleApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LottieExampleApp;
+			sourceTree = "<group>";
+		};
+		2994D4EF2D3F931000D7A407 /* LottieExampleAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LottieExampleAppTests;
+			sourceTree = "<group>";
+		};
+		2994D4F92D3F931000D7A407 /* LottieExampleAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LottieExampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2994D4D92D3F930E00D7A407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2994D50B2D3F94E200D7A407 /* DotLottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4E92D3F931000D7A407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4F32D3F931000D7A407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2994D4D32D3F930E00D7A407 = {
+			isa = PBXGroup;
+			children = (
+				2994D4DE2D3F930E00D7A407 /* LottieExampleApp */,
+				2994D4EF2D3F931000D7A407 /* LottieExampleAppTests */,
+				2994D4F92D3F931000D7A407 /* LottieExampleAppUITests */,
+				2994D4DD2D3F930E00D7A407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2994D4DD2D3F930E00D7A407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2994D4DC2D3F930E00D7A407 /* LottieExampleApp.app */,
+				2994D4EC2D3F931000D7A407 /* LottieExampleAppTests.xctest */,
+				2994D4F62D3F931000D7A407 /* LottieExampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2994D4DB2D3F930E00D7A407 /* LottieExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2994D5002D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleApp" */;
+			buildPhases = (
+				2994D4D82D3F930E00D7A407 /* Sources */,
+				2994D4D92D3F930E00D7A407 /* Frameworks */,
+				2994D4DA2D3F930E00D7A407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2994D4DE2D3F930E00D7A407 /* LottieExampleApp */,
+			);
+			name = LottieExampleApp;
+			packageProductDependencies = (
+				2994D50A2D3F94E200D7A407 /* DotLottie */,
+			);
+			productName = LottieExampleApp;
+			productReference = 2994D4DC2D3F930E00D7A407 /* LottieExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2994D4EB2D3F931000D7A407 /* LottieExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2994D5032D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleAppTests" */;
+			buildPhases = (
+				2994D4E82D3F931000D7A407 /* Sources */,
+				2994D4E92D3F931000D7A407 /* Frameworks */,
+				2994D4EA2D3F931000D7A407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2994D4EE2D3F931000D7A407 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2994D4EF2D3F931000D7A407 /* LottieExampleAppTests */,
+			);
+			name = LottieExampleAppTests;
+			packageProductDependencies = (
+			);
+			productName = LottieExampleAppTests;
+			productReference = 2994D4EC2D3F931000D7A407 /* LottieExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2994D4F52D3F931000D7A407 /* LottieExampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2994D5062D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleAppUITests" */;
+			buildPhases = (
+				2994D4F22D3F931000D7A407 /* Sources */,
+				2994D4F32D3F931000D7A407 /* Frameworks */,
+				2994D4F42D3F931000D7A407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2994D4F82D3F931000D7A407 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2994D4F92D3F931000D7A407 /* LottieExampleAppUITests */,
+			);
+			name = LottieExampleAppUITests;
+			packageProductDependencies = (
+			);
+			productName = LottieExampleAppUITests;
+			productReference = 2994D4F62D3F931000D7A407 /* LottieExampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2994D4D42D3F930E00D7A407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					2994D4DB2D3F930E00D7A407 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					2994D4EB2D3F931000D7A407 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2994D4DB2D3F930E00D7A407;
+					};
+					2994D4F52D3F931000D7A407 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 2994D4DB2D3F930E00D7A407;
+					};
+				};
+			};
+			buildConfigurationList = 2994D4D72D3F930E00D7A407 /* Build configuration list for PBXProject "LottieExampleApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2994D4D32D3F930E00D7A407;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2994D5092D3F94E200D7A407 /* XCRemoteSwiftPackageReference "dotlottie-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2994D4DD2D3F930E00D7A407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2994D4DB2D3F930E00D7A407 /* LottieExampleApp */,
+				2994D4EB2D3F931000D7A407 /* LottieExampleAppTests */,
+				2994D4F52D3F931000D7A407 /* LottieExampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2994D4DA2D3F930E00D7A407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4EA2D3F931000D7A407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4F42D3F931000D7A407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2994D4D82D3F930E00D7A407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4E82D3F931000D7A407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2994D4F22D3F931000D7A407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2994D4EE2D3F931000D7A407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2994D4DB2D3F930E00D7A407 /* LottieExampleApp */;
+			targetProxy = 2994D4ED2D3F931000D7A407 /* PBXContainerItemProxy */;
+		};
+		2994D4F82D3F931000D7A407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2994D4DB2D3F930E00D7A407 /* LottieExampleApp */;
+			targetProxy = 2994D4F72D3F931000D7A407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2994D4FE2D3F931000D7A407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2994D4FF2D3F931000D7A407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2994D5012D3F931000D7A407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieExampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VB7X3ZQ6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2994D5022D3F931000D7A407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottieExampleApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VB7X3ZQ6U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2994D5042D3F931000D7A407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LottieExampleApp";
+			};
+			name = Debug;
+		};
+		2994D5052D3F931000D7A407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LottieExampleApp";
+			};
+			name = Release;
+		};
+		2994D5072D3F931000D7A407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LottieExampleApp;
+			};
+			name = Debug;
+		};
+		2994D5082D3F931000D7A407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LottieExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LottieExampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2994D4D72D3F930E00D7A407 /* Build configuration list for PBXProject "LottieExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994D4FE2D3F931000D7A407 /* Debug */,
+				2994D4FF2D3F931000D7A407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2994D5002D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994D5012D3F931000D7A407 /* Debug */,
+				2994D5022D3F931000D7A407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2994D5032D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994D5042D3F931000D7A407 /* Debug */,
+				2994D5052D3F931000D7A407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2994D5062D3F931000D7A407 /* Build configuration list for PBXNativeTarget "LottieExampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2994D5072D3F931000D7A407 /* Debug */,
+				2994D5082D3F931000D7A407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2994D5092D3F94E200D7A407 /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LottieFiles/dotlottie-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2994D50A2D3F94E200D7A407 /* DotLottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2994D5092D3F94E200D7A407 /* XCRemoteSwiftPackageReference "dotlottie-ios" */;
+			productName = DotLottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2994D4D42D3F930E00D7A407 /* Project object */;
+}
