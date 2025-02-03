@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var isShowCoverDialog: Bool = false
     @State var isShowOverlayAlert: Bool = false
     @State var isShowOverlayAlertCustom: Bool = false
+    @State private var isShowCustomModal = false
     
     var body: some View {
         VStack {
@@ -25,24 +27,35 @@ struct ContentView: View {
                     isShowOverlayAlertCustom = true
                 }
             }
+            
+            Button("Show Cover") {
+                withAnimation(.easeInOut) {
+                    isShowCoverDialog = true
+                }
+            }
         }
-        .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .bottomAlertOverlay(title: "Title", message: "message", isPresented: $isShowOverlayAlert) {
             withAnimation {
                 isShowOverlayAlert = false
             }
         }
+        .fullScreenCover(isPresented:  $isShowCoverDialog, content: {
+            BottomDialog(title: "Title", message: "message") {
+                isShowCoverDialog = false
+            }
+            .presentationBackground(.clear)
+        })
         .bottomAlertOverlay(title: "title", contentArea: {
             VStack {
                 Text("content")
                 Button("Close") {
-                    isShowOverlayAlert = false
+                    isShowOverlayAlertCustom = false
                 }
             }
         }, isPresented: $isShowOverlayAlertCustom) {
             withAnimation {
-            isShowOverlayAlertCustom = false
+                isShowOverlayAlertCustom = false
             }
         }
     }

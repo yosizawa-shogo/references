@@ -31,20 +31,29 @@ struct BottomDialog<Content: View>: View {
         ZStack {
             
             Rectangle()
+                .ignoresSafeArea(.all)
                 .foregroundColor(Color.clear)
                 .contentShape(Rectangle())
                 .onTapGesture {
+                    let _ = print("tap")
                     closeAction?()
                 }
             
-            
             VStack(spacing: 0) {
+                Spacer()
                 VStack(spacing: 0) {
                     HStack {
                         Text(title)
                             .font(.headline)
                         
                         Spacer()
+                        
+                        Button(action: {
+                            closeAction?()
+                        }) {
+                            Image(systemName: "xmark")
+                                .foregroundColor(.black)
+                        }
                     }
                     .padding(.top, 16)
                     .padding(.horizontal, 16)
@@ -59,8 +68,10 @@ struct BottomDialog<Content: View>: View {
                 .shadow(color: Color(red: 29/255, green: 32/255, blue: 37/255, opacity: 0.3), radius: 50, x: 0, y: 16)
                 .padding(.horizontal)
                 .contentShape(Rectangle())
+                
             }
         }
+        .background(.black.opacity(0.3))
     }
 }
 
